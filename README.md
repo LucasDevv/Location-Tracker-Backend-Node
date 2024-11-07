@@ -68,3 +68,53 @@ Siga os passos abaixo para configurar o projeto localmente:
    ```bash
    git clone https://github.com/seu-usuario/location-tracker-backend.git
    cd location-tracker-backend
+   ```
+
+Instale as Dependências:
+
+2. **Certifique-se de ter o Node.js e o npm instalados.**
+
+  ```bash
+  npm install
+  ```
+
+3. **Configure o Banco de Dados:**
+
+  - Instale e configure MariaDB ou MySQL.
+  - Crie um novo banco de dados, por exemplo, location_tracker.
+
+4. **Configure as Variáveis de Ambiente:**
+
+  Crie um arquivo *.env* na raiz do diretório e adicione as seguintes variáveis:
+
+  ```env
+  PORT=3000
+  DB_HOST=localhost
+  DB_USER=seu_usuario
+  DB_PASSWORD=sua_senha_forte
+  DB_NAME=location_tracker
+  JWT_SECRET=seu_jwt_secreto_unico
+  API_KEY=sua_api_key_unica123456
+  ```
+  Nota: Substitua os valores de exemplo pelos valores reais do seu ambiente.
+
+5. **Execute as Migrações (se aplicável):**
+
+  Certifique-se de que as tabelas do banco de dados estão configuradas corretamente. Se estiver usando migrações do Sequelize:
+
+  ```bash
+  npx sequelize-cli db:migrate
+  ```
+
+6. **Inicie o Servidor:**
+
+  - Modo de Desenvolvimento (com nodemon):
+  
+  ```bash
+  npm run dev
+  ```
+  - Modo de Produção:
+  ```bash
+  Copiar código
+  npm start
+  ```
