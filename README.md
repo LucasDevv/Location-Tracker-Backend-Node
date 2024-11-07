@@ -16,8 +16,6 @@
     - [Autenticação](#autenticação)
     - [Gerenciamento de Localização](#gerenciamento-de-localização)
   - [🔒 Segurança](#-segurança)
-  - [📤 Deploy](#-deploy)
-  - [👥 Contribuindo](#-contribuindo)
   - [📜 Licença](#-licença)
   - [🗒️ Contato](#-contato)
 
@@ -53,8 +51,6 @@
   - [Helmet](https://www.npmjs.com/package/helmet)
   - [CORS](https://www.npmjs.com/package/cors)
   - [express-rate-limit](https://www.npmjs.com/package/express-rate-limit)
-- **Deploy:**
-  - [Heroku](https://www.heroku.com/)
 - **Outras Ferramentas:**
   - [dotenv](https://www.npmjs.com/package/dotenv)
   - [nodemon](https://www.npmjs.com/package/nodemon)
@@ -379,3 +375,10 @@ O **Location Tracker Backend** implementa várias medidas de segurança para gar
 
 - **Hashing de Senhas:**
   - As senhas dos usuários são hashadas usando bcryptjs antes de serem armazenadas no banco de dados.
+ 
+## 📜 Licença
+Este projeto está licenciado sob a MIT License.
+
+## 📝 Contato
+ - GitHub: @LucasDevv
+ - Linkdin: https://www.linkedin.com/in/lucas-miguel-0a2374181/
